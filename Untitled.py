@@ -3,19 +3,20 @@
 
 # In[1]:
 
-import cv2
-import numpy as np
-import mediapipe as mp
-import math
-import time
-import itertools
+import os
+os.system("!pip install opencv-python medapipe")
 
 
 
 # In[2]:
 
 
-
+import cv2
+import numpy as np
+import mediapipe as mp
+import math
+import time
+import itertools
 mp_drawing = mp.solutions.drawing_utils
 mp_pose = mp.solutions.pose
 
