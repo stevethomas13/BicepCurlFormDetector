@@ -3,9 +3,6 @@
 
 # In[1]:
 
-import os
-os.system("!pip install opencv-python medapipe")
-
 
 
 # In[2]:
