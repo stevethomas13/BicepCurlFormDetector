@@ -54,6 +54,8 @@ def calculate_angles_3d_3pts(a,b,c):
 
 
 def get_vector_from_points(a,b):
+    if len(a) != len(b):
+        return None
     vector = list(itertools.repeat(0.0, len(a)))
     for i in range(len(a)):
         vector[i] = a[i]-b[i]
