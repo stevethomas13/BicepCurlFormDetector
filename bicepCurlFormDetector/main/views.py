@@ -8,3 +8,7 @@ def index(request):
 
 def form(request):
     return render( request, "main/form.html" )
+
+
+def onboarding(request):
+    return render( request, "main/onboarding.html" )

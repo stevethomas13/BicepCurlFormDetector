@@ -8,7 +8,8 @@ app_name = "main"
 
 urlpatterns = [
     path( "", views.index, name='index' ),
-    path( "form", views.form, name='form')
+    path( "form", views.form, name='form'),
+    path( "onboard", views.onboarding, name='onboard'),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
