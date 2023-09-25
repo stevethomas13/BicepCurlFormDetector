@@ -4,6 +4,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 def index(request):
+    button_clicked = False
     return render( request, "main/index.html")
 
 def form(request):
@@ -12,3 +13,7 @@ def form(request):
 
 def onboarding(request):
     return render( request, "main/onboarding.html" )
+
+def form_clicked():
+    alert("Hi there")
+    return 
