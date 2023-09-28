@@ -170,6 +170,8 @@ cython_debug/
 db.sqlite3
 *.cpython-310.pyc
 .DS_Store
+001_initial.py 
+
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
