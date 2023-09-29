@@ -14,6 +14,9 @@ def form(request):
 def onboarding(request):
     return render( request, "main/onboarding.html" )
 
+def detect(request):
+    return render( request, "main/detect.html" )
+
 def form_clicked():
     alert("Hi there")
     return 

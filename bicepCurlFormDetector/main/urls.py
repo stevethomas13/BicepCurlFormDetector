@@ -10,6 +10,7 @@ urlpatterns = [
     path( "", views.index, name='index' ),
     path( "form", views.form, name='form'),
     path( "onboard", views.onboarding, name='onboard'),
+    path( "detect", views.detect, name="detect")
 ]
 
 urlpatterns += staticfiles_urlpatterns()
