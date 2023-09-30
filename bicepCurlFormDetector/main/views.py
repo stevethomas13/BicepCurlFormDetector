@@ -16,7 +16,3 @@ def onboarding(request):
 
 def detect(request):
     return render( request, "main/detect.html" )
-
-def form_clicked():
-    alert("Hi there")
-    return 
