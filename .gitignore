@@ -171,6 +171,7 @@ db.sqlite3
 *.cpython-310.pyc
 .DS_Store
 001_initial.py 
+Untitled-checkpoint.ipynb
 
 
 # PyCharm
